@@ -20,7 +20,7 @@ public class H2_main {
                 Arrays.sort(sortedA);
 
 
-                int[] sortedB = Arrays.copyOfRange(sortedA, start, end);
+                int[] sortedB = Arrays.copyOfRange(sortedA, start, end );
 
                 return sortedB;
             }
