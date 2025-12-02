@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class H2_main {
     public static void main(String[] args) {
+
     }
 
     public static int[] change(int[] a, int[] b, int start, int end) {
@@ -16,11 +17,11 @@ public class H2_main {
                 return copyA;
             }
             if (Arrays.compare(a, b) == 0 ){
-               int[] sortedA = a.clone();
-                Arrays.sort(sortedA);
+
+                Arrays.sort(a);
 
 
-                int[] sortedB = Arrays.copyOfRange(sortedA, start, end );
+                int[] sortedB = Arrays.copyOfRange(a, start, end );
 
                 return sortedB;
             }
