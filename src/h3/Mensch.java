@@ -3,9 +3,9 @@ package h3;
 import java.lang.reflect.GenericArrayType;
 
 public class Mensch {
-    public String name = "Thomas";
-    public int gebJahr = 2006;
-    public int alter = 19;
+    public String name;
+    public int gebJahr;
+    public int alter;
 
     int jahr = 2025;
 

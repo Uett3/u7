@@ -8,7 +8,7 @@ public class Zahl {
 
 
     public void setEven(){
-        even = num % 2 == 0;
+        even = (num % 2 == 0);
 
     }
     public void setSmall(){
